@@ -21,3 +21,8 @@ model.fit(X_train, y_train)
 pickle.dump(model, open("model.pkl", "wb"))
 
 print("Model trained and saved!")
+
+from sklearn.metrics import r2_score
+
+predictions = model.predict(X_test)
+print("Model Accuracy (R2 Score):", r2_score(y_test, predictions))
