@@ -37,6 +37,9 @@ if st.button("🚀 Predict Performance"):
     else:
         st.warning("⚠️ You need to focus more!")
 
+st.write("### 📊 Model Insight")
+st.write("This prediction is based on patterns learned from student data.")
+
 
 #adding graphs    
 import matplotlib.pyplot as plt
