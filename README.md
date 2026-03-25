@@ -1,10 +1,10 @@
-# 🎓 Student Performance Predictor
+#  Student Performance Predictor
 
 A Machine Learning project that predicts student marks based on study habits such as study hours, attendance, sleep, and previous performance.
 
 ---
 
-## 🚀 Features
+##  Features
 - Predicts student performance using Machine Learning
 - Uses Linear Regression algorithm for prediction
 - Interactive web interface built with Streamlit
@@ -12,7 +12,7 @@ A Machine Learning project that predicts student marks based on study habits suc
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - Python
 - Pandas
 - Scikit-learn
@@ -21,7 +21,7 @@ A Machine Learning project that predicts student marks based on study habits suc
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 student-performance-predictor/
 │── dataset.csv
 │── model.py
@@ -31,7 +31,7 @@ student-performance-predictor/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Install dependencies: pip install -r requirements.txt
 2. Train the model: python model.py
@@ -39,17 +39,17 @@ student-performance-predictor/
 
 ---
 
-## 📸 Project Preview
+##  Project Preview
 
-### 🔹 Input Interface
+###  Input Interface
 ![Input UI](Screenshot1.png)
 
-### 🔹 Prediction Output
+###  Prediction Output
 ![Output UI](Screenshot2.png)
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 This project demonstrates how machine learning can be used to predict student performance based on daily habits. It highlights the importance of data-driven decision-making in education.
 
 ---
