@@ -2,7 +2,12 @@ import streamlit as st
 import numpy as np
 import pickle
 
-model = pickle.load(open("model.pkl", "rb"))
+@st.cache_resource
+def load_model():
+    with open("model.pkl", "rb") as f:
+        return pickle.load(f)
+
+model = load_model()
 
 st.set_page_config(page_title="Student Predictor", page_icon="🎓")
 
@@ -45,7 +50,11 @@ st.write("This prediction is based on patterns learned from student data.")
 import matplotlib.pyplot as plt
 import pandas as pd
 
-data = pd.read_csv("dataset.csv")
+@st.cache_data
+def load_data():
+    return pd.read_csv("dataset.csv")
+
+data = load_data()
 
 st.write("### 📈 Study Hours vs Marks")
 fig, ax = plt.subplots()
