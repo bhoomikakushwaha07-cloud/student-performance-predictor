@@ -24,3 +24,11 @@ python model.py
 
 3. Run app:
 streamlit run app.py
+
+## 📸 Project Preview
+
+### 🔹 Input Interface
+![Input UI](Screenshot1.png)
+
+### 🔹 Prediction Output
+![Output UI](Screenshot2.png)
