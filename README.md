@@ -54,7 +54,7 @@ This project demonstrates how machine learning can be used to predict student pe
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 - Use real-world datasets for better accuracy
 - Implement advanced ML models
 - Deploy as a full web application
@@ -62,5 +62,5 @@ This project demonstrates how machine learning can be used to predict student pe
 
 ---
 
-## 👩‍💻 Author
+##  Author
 Bhoomika Kushwaha
