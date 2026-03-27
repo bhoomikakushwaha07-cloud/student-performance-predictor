@@ -41,11 +41,10 @@ student-performance-predictor/
 
 ##  Project Preview
 
-###  Input Interface
-![Input UI](Screenshot1.png)
+###  Interface
+![UI1](Screenshot1.png)
 
-###  Prediction Output
-![Output UI](Screenshot2.png)
+![UI2](Screenshot2.png)
 
 ---
 
